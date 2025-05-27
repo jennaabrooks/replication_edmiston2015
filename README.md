@@ -1,7 +1,7 @@
 # Replication of Study: *What Makes Words Special? Words as Unmotivated Cues* (Edmiston & Lupyan, 2015, *Cognition*)
 
-**Replication Author**: Jenna Brooks ([j8brooks@ucsd.edu](mailto:j8brooks@ucsd.edu))  
-**Date**: May 27, 2025  
+**Replication Author**: Jenna Brooks ([j8brooks@ucsd.edu](mailto:j8brooks@ucsd.edu)), Noah Khaloo, Sihan Yang, Reeka Estacio   
+**Date**: November 24, 2024  
 
 ---
 
@@ -12,9 +12,7 @@ This repository contains materials, code, and documentation for a replication of
 ---
 
 ## Resources
-
-- **[GitHub Repository](https://github.com/ucsd-psych201a/edmiston2015)**
-- **[Pre-Registration](https://github.com/ucsd-psych201a/edmiston2015/tree/main/prereg)**
+- **[Pre-Registration](https://github.com/jennaabrooks/replication_edmiston2015/tree/main/prereg)**
 - **[Experiment Paradigm](https://ucsd-psych201a.github.io/edmiston2015/)**
 
 ---
@@ -38,11 +36,11 @@ Sample size (n = 50) was selected to achieve 80% power based on an a priori anal
 ### Materials
 - Cues: Spoken words and environmental sounds for 6 categories (e.g., bird, guitar)
 - All audio normalized to 600ms
-- Stimuli from: http://sapir.psych.wisc.edu/stimuli/MotivatedCuesExp1A-1B.zip
-
+- Stimuli from: http://sapir.psych.wisc.edu/stimuli2/
+  
 ### Procedure
 - jsPsych implementation of Experiment 1A
-- Participants respond using keyboard (not game controller)
+- Participants respond using keyboard
 - Audio check included before trials
 - 384 test trials per participant
 - 50% of trials were matches
@@ -109,6 +107,6 @@ Sample size (n = 50) was selected to achieve 80% power based on an a priori anal
 ├── prereg/
 │   └── preregistration.md  # Pre-registered plan
 ├── scripts/
-│   └── analysis.R          # R analysis script
-├── README.md               # This file
-└── index.qmd               # Replication report (Quarto)
+│   └── writeup_jenna_brooks.qmd          # R analysis and write up
+├── README.md              
+└── index.html               # Paradigm Design 
